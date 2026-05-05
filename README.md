@@ -1,0 +1,1 @@
+# lga04nn-test-scout
