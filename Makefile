@@ -19,7 +19,7 @@ test-script:
 	echo "\nTest 1: No Python files present"
 	rm -f test_*.py *.py
 	./entrypoint.sh $(PATTERN)
-
+	
 	echo "\nTest 2: Python files present, but no test files"
 	echo "print('Hello, world')" > app.py
 	./entrypoint.sh $(PATTERN)
